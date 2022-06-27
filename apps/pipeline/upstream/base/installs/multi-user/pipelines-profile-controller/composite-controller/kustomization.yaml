@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:
+  app: kubeflow-pipelines-profile-controller
+  app.kubernetes.io/name: kubeflow-pipelines
+  app.kubernetes.io/component: ml-pipeline
+  application-crd-id: kubeflow-pipelines
+resources:
+- composite-controller.yaml

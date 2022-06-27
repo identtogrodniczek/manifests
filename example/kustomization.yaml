@@ -27,6 +27,8 @@ resources:
 
 # Kubeflow Pipelines
 - ../apps/pipeline/upstream/env/platform-agnostic-multi-user
+
+- ../apps/pipeline/upstream/base/installs/multi-user/pipelines-profile-controller/composite-controller
 # KFServing
 - ../apps/kfserving/upstream/overlays/kubeflow
 # Katib
