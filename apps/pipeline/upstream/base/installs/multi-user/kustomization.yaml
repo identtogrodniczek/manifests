@@ -19,6 +19,7 @@ resources:
 - metadata-writer
 - istio-authorization-config.yaml
 - virtual-service.yaml
+- composite-controller.yaml
 patchesStrategicMerge:
 - api-service/deployment-patch.yaml
 - pipelines-ui/deployment-patch.yaml
